@@ -1,6 +1,8 @@
 /* main stuff / big blocks */
 
-html, body, div, span, applet, object,
+
+
+html, body, div, s, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -194,6 +196,26 @@ p, ul, ol, dl, table, blockquote, form {
 
 /* Main */
 
+#grif-img{
+    /* width: 80%; */
+    border: 1PX SOLID #eee;
+    box-shadow:  0 1px 1pc #ccc;
+    padding: 1px;
+    /* margin: 10px auto; */
+    /* box-sizing: border-box; */
+}
+
+.grif-icons{
+    font-size: 2rem;
+}
+@media screen and (max-width: 736px) {
+
+    .grif-icons {
+        font-size: 1.3rem;
+    }
+
+  }
+
 #main {
   position: relative;
   overflow: hidden;
@@ -259,6 +281,9 @@ p, ul, ol, dl, table, blockquote, form {
         flex-shrink: 0;
         width: 17em;
         height: 100%;
+
+        
+        
       }
 
         #main > .panel.intro .pic:before {
@@ -349,8 +374,16 @@ p, ul, ol, dl, table, blockquote, form {
         #main > .panel.intro header p {
           letter-spacing: -0.015em;
           font-size: 1.25em;
-          margin: 0.25em 0 0 0;
+          /* margin: 0.25em 0 0 0; */
+          margin: 0 auto;
         }
+        #main > .panel.intro header small {
+            /* letter-spacing: -0.015em; */
+            font-size: 0.90em;
+            /* margin: 0.25em 0 0 0; */
+            margin: 0 auto;
+            color: #aaa;
+          }
 
       @media screen and (max-width: 980px) {
 
