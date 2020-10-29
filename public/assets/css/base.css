@@ -196,13 +196,11 @@ p, ul, ol, dl, table, blockquote, form {
 
 /* Main */
 
-#grif-img{
-    /* width: 80%; */
+#app-previews{
     border: 1PX SOLID #eee;
     box-shadow:  0 1px 1pc #ccc;
     padding: 1px;
-    /* margin: 10px auto; */
-    /* box-sizing: border-box; */
+    /* padding-left: 100px; */
 }
 
 .grif-icons{
@@ -215,6 +213,90 @@ p, ul, ol, dl, table, blockquote, form {
     }
 
   }
+
+.art-images{
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#top3{
+    border: solid thin black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding-bottom: 80px; */
+}
+
+#logo-box{
+    display: flex;
+    flex: 33.333333%;
+    justify-content: center;
+}
+
+#boys-logos{
+    border: solid thin blue;
+    width: 234px;
+    justify-content: center;
+} 
+
+#second2{
+    border: solid thin red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding-bottom: 80px; */
+}
+
+#cat-box{
+    display: flex;
+    flex: 50%;
+    justify-content: center;
+}
+
+#cats{
+    border: solid thin blue;
+    /* width: 300px; */
+    height: 275px;
+} 
+
+#third4{
+    border: solid thin yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#portrait-box{
+    display: flex;
+    flex: 25%;
+    justify-content: center;
+}
+
+#portrait{
+    border: solid thin green;
+    /* width: 200px; */
+    height: 314px;
+} 
+
+#fourth3{
+    border: solid thin purple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#last-box{
+    display: flex;
+    flex: 33.333333%;
+    justify-content: center;
+}
+
+#last-img{
+    border: solid thin brown;
+    /* width: 200px; */
+    height: 300px;
+} 
+
 
 #main {
   position: relative;
