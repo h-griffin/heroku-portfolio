@@ -203,6 +203,12 @@ p, ul, ol, dl, table, blockquote, form {
     /* padding-left: 100px; */
 }
 
+.box-shadow{
+    border: 1PX SOLID #eee;
+    box-shadow:  0 1px 1pc #ccc;
+    padding: 1px;
+}
+
 .grif-icons{
     font-size: 2rem;
 }
@@ -219,8 +225,8 @@ p, ul, ol, dl, table, blockquote, form {
     justify-content: center;
 }
 
+/* ROW 1 */
 #top3{
-    border: solid thin black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -234,17 +240,15 @@ p, ul, ol, dl, table, blockquote, form {
 }
 
 #boys-logos{
-    border: solid thin blue;
     width: 234px;
     justify-content: center;
 } 
 
+/* ROW 2 */
 #second2{
-    border: solid thin red;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* padding-bottom: 80px; */
 }
 
 #cat-box{
@@ -254,13 +258,11 @@ p, ul, ol, dl, table, blockquote, form {
 }
 
 #cats{
-    border: solid thin blue;
-    /* width: 300px; */
     height: 275px;
 } 
 
+/* ROW 3 */
 #third4{
-    border: solid thin yellow;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -268,35 +270,189 @@ p, ul, ol, dl, table, blockquote, form {
 
 #portrait-box{
     display: flex;
-    flex: 25%;
-    justify-content: center;
-}
-
-#portrait{
-    border: solid thin green;
-    /* width: 200px; */
-    height: 314px;
-} 
-
-#fourth3{
-    border: solid thin purple;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#last-box{
-    display: flex;
     flex: 33.333333%;
     justify-content: center;
 }
 
-#last-img{
-    border: solid thin brown;
-    /* width: 200px; */
-    height: 300px;
+#portrait{
+    height: 314px;
 } 
 
+.elvis{
+    height: 314px;
+    border: 1PX SOLID #eee;
+    box-shadow:  0 1px 1pc #ccc;
+    padding: 1px;
+}
+
+/* ROW 5 */
+#big-box{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-block;
+}
+
+#fourth3{
+    flex-wrap: wrap;
+    justify-content: center;
+    float: left;
+    height: 400px
+}
+
+#last-box{
+    float: left;
+    justify-content: center;
+}
+
+#soldier-dog{
+    width: 150px;
+    justify-content: center;
+    float: left;
+    width: 333px;
+}
+
+#octo-img{
+    width: 390px;
+} 
+
+#solo-dog{
+    width:330px;
+    height: 250px;
+}
+
+#last-img{
+    height: 250px;
+} 
+
+
+
+@media screen and (max-width: 1680px) {
+
+    #cats{
+        margin-top: 15px;
+    }
+    #octo-img {
+      margin-left: 15px;
+    }
+    #soldier-dog {
+        margin-left: 46px;
+      }
+    #third4{
+        margin-top: 15px;
+    }
+    #big-box{
+        margin-top: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+      
+    #cats{
+        height: 265px;
+    }
+    #big-box{
+        margin-top: 15px;
+    }
+    #soldier-dog {
+        margin-left: 15px;
+    }
+    #octo-img {
+        margin-left: 5px;
+        width: 389px;
+    }
+
+  }
+
+  @media screen and (max-width: 736px) {
+
+    #boys-logos{
+        width: 205px;
+    }
+    #cats{
+        height: 230px;
+    }
+    #portrait{
+        height: 265px;
+    }
+    .elvis{
+        height: 265px;
+     }
+    #octo-img {
+        margin-left: 25px;
+        width: 300px;
+    }
+    #soldier-dog {
+        margin-left: 35px;
+        width: 220px
+    }
+    #last-img{
+        height: 190px;
+        width:270px;
+        margin-top: 5px;
+    }
+    #solo-dog{
+        height: 190px;
+        width:270px;
+        
+    }
+
+  }
+
+  @media screen and (max-width: 360px) {
+
+    #boys-logos{
+        width: 90px;
+    }
+    #cats{
+        height: 224px;
+    }
+    #portrait{
+        height: 200px;
+        margin-left: 5px;
+    }
+    #third4{
+        justify-content: center;
+    }
+    #portrait-box{
+        display: inline-block;
+        justify-content: center;
+        height: 210px;
+        margin-top: 5px;
+    }
+    .elvis{
+       width: 320px;
+       /* height: auto; */
+       height: 438px;
+       justify-content: center;
+       margin-bottom: 20px;
+       margin-top: 10px;
+    }
+    #octo-img {
+        justify-content: center;
+        align-self: center;
+        /* height: 390px; */
+        width: 315px;
+        margin-top: 250px;
+        margin-left: 0px;
+    }
+
+    #soldier-dog {
+        margin-top: 290px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    #solo-dog{
+        height:235px;
+        width: 315px;
+        margin-left: 0px;
+    }
+    #last-img{
+        height:235px;
+        width: 315px;
+        margin-left: 0px;
+    }
+
+  }
 
 #main {
   position: relative;
