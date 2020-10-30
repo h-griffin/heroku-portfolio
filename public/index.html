@@ -21,7 +21,7 @@
 					<nav id="nav">
 						<a href="#" class="icon solid fa-home"><span>Home</span></a>
 						<a href="#work" class="icon solid fa-code"><span>Code</span></a>
-                        <a href="#art" class="icon solid fa-paint-brush"><span>Art</span></a>
+                        <a href="#art" class="icon solid fa-palette"><span>Art</span></a>
                         <!-- <a href="https://github.com/h-griffin" class="icon brands fa-github"><span>Github</span></a>
                         <a href="https://www.linkedin.com/in/hs-griffin/" class="icon brands fa-linkedin"><span>Linked-In</span></a> -->
                         <a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
@@ -32,99 +32,88 @@
 
 						<!-- Me -->
 							<article id="home" class="panel intro">
-								<header>
+								<header style='padding: 3.5em 2.5em;'>
 									<h1>Haley Griffin</h1>
                                     <p>Software Developer</p>
                                     <small>Commission Artist</small>
 								</header>
 								<a href="#work" class="jumplink pic">
 									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-									<img src="images/griffin.jpg" alt="" />
+									<img width='100px' src="images/griffin.jpg" alt="" />
 								</a>
 							</article>
 
                         <!-- Work -->
-                            <article id="work" class="panel intro">
-                                <a href="#art" class="jumplink pic">
-                                    <span class="arrow icon solid fa-chevron-left"><span>See my work</span></span>
-                                    <img src="images/white.png" alt="" />
+                        <article id="work" class="panel intro" style='height: 170px; '>
+
+                            <header style='text-align: center; padding-bottom: 50px; padding-top: 50px;height: 170px; padding-left: 0px'>
+                                <h1>Projects</h1>
+                                <a href="#home" class="next-right" >
+                                    <span class="noimgarrowleft icon solid fa-chevron-left" ><span>Home</span></span>
                                 </a>
-                                <header>
-                                    <h1>Projects</h1>
-                                    <p>Programming applications and games</p>
+                                
+                                <!-- <h1>Commissions</h1> -->
+                                <p>Programming applications and games</p>
+                                
+                                <a href="#art" class="next-right">
+                                    <span class="noimgarrow icon solid fa-chevron-right" ><span>See my art</span></span>
+                                </a>
+                            </header>
+                        </article>
+
+                        <article id="work" class="panel work" style='padding: 3em 2.5em 2.5em 2.5em;' >
+                            <div align='center' style='padding-bottom: 10px;'>
+                                <img alt="Python" width="56px" src="https://img.icons8.com/color/96/000000/python.png"/>
+                                <img alt="JavaScript" width="56px" src="https://img.icons8.com/color/96/000000/javascript.png"/>
+                                <img alt="React" width="56px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
+                                <!-- <img alt="C-sharp" width="56px" src="https://img.icons8.com/color/48/000000/c-sharp-logo-2.png"/> -->
+                                <img alt="HTML5" width="56px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+                                <img alt="CSS3" width="56px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+                            </div>
+                            <section >
+                                <div class="row">
+                                    <div class="col-4 col-6-medium col-12-small">
+                                        <a href="https://foodiejournals.com/" class="image fit" id='app-previews'><img src="images/foodie-journals.png" alt="foodie journals"></a>
+                                        <h3 style='text-align: center;'>Foodie Journal</h3>
+                                        <p style='text-align: center; margin: 0;'>Python, React.js & Bootstrap</p>
+                                        <p style='font-size: small; text-align: center;'>Unauthenticated visitors may view and search recipes with filters. Authenticated users may sign in/out as well as create-update-delete their own posts/recipes</p>
+                                    </div>
                                     
-                                </header>
-                                <a href="#art" class="jumplink pic">
-                                    <span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-                                    <img src="images/white.png" alt="" />
-                                </a>
-
-        
-
-                            </article>
-							<article id="work" class="panel work" >
-                                <div align='center'>
-                                    <img alt="Python" width="56px" src="https://img.icons8.com/color/96/000000/python.png"/>
-                                    <img alt="JavaScript" width="56px" src="https://img.icons8.com/color/96/000000/javascript.png"/>
-                                    <img alt="React" width="56px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
-                                    <!-- <img alt="C-sharp" width="56px" src="https://img.icons8.com/color/48/000000/c-sharp-logo-2.png"/> -->
-                                    <img alt="HTML5" width="56px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-                                    <img alt="CSS3" width="56px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+                                    <div class="col-4 col-6-medium col-12-small">
+                                        <a href="https://slot-machine-201.github.io/slot-machine/" class="image fit" id='app-previews'><img src="images/slot-machine.png" alt="slot-machine"></a>
+                                        <h3 style='text-align: center;'>Slot Machine</h3>
+                                        <p style='text-align: center; margin: 0;'>Javascript</p>
+                                        <p style='font-size: small; text-align: center;'>simple pure JS arcade style animatedweb game with bets and rewards, as well as a modifiable win ratio.</p>
+                                    </div>
+                                    
+                                    <div class="col-4 col-6-medium col-12-small">
+                                        <a href="https://burger-builder-react-88892.web.app/" class="image fit" id='app-previews'><img src="images/burger-builder.png" alt="burger-builder"></a>
+                                        <h3 style='text-align: center;'>Burger Builder</h3>
+                                        <p style='text-align: center; margin: 0;'>React.js & Redux.js</p>
+                                        <p style='font-size: small; text-align: center;'>Visitors may create an order, but must sign up/in to place an order. Once signed in, users have access to record of their previous orders. </p>
+                                    </div>
+                                    
                                 </div>
-                            
-                                
-								<!-- <header>
-                                    <h2 align='center'>Projects</h2>
-								</header>
-								<p align='center'>Programming applications and games</p> -->
-                                
-								<section>
-									<div class="row">
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <a href="https://foodiejournals.com/" class="image fit" id='app-previews'><img src="images/foodie-journals.png" alt="foodie journals"></a>
-                                            <h3 style='text-align: center;'>Foodie Journal</h3>
-                                            <p style='text-align: center; margin: 0;'>Python, React.js & Bootstrap</p>
-                                            <p style='font-size: small; text-align: center;'>Unauthenticated visitors may view and search recipes with filters. Authenticated users may sign in/out as well as create-update-delete their own posts/recipes</p>
-                                        </div>
-                                        
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <a href="https://slot-machine-201.github.io/slot-machine/" class="image fit" id='app-previews'><img src="images/slot-machine.png" alt="slot-machine"></a>
-                                            <h3 style='text-align: center;'>Slot Machine</h3>
-                                            <p style='text-align: center; margin: 0;'>Javascript</p>
-                                            <p style='font-size: small; text-align: center;'>simple pure JS arcade style web game with bets and rewards, as well as a modifiable win ratio.</p>
-                                        </div>
-                                        
-                                        <div class="col-4 col-6-medium col-12-small">
-                                            <a href="https://burger-builder-react-88892.web.app/" class="image fit" id='app-previews'><img src="images/burger-builder.png" alt="burger-builder"></a>
-                                            <h3 style='text-align: center;'>Burger Builder</h3>
-                                            <p style='text-align: center; margin: 0;'>React.js & Redux.js</p>
-                                            <p style='font-size: small; text-align: center;'>Visitors may create an order, but must sign up/in to place an order. Once signed in, users have access to record of their previous orders. </p>
-										</div>
-                                        
-									</div>
-								</section>
-							</article>
+                            </section>
+                        </article>
 
                         <!-- Art -->
-                        <article id="art" class="panel intro">
-                            <header>
+                        <article id="art" class="panel intro" style='height: 170px; '>
+                            <header style='text-align: center; padding-bottom: 50px; padding-top: 50px;height: 170px; padding-left: 0px'>
                                 <h1>Commissions</h1>
+                                <a href="#work" class="next-right" >
+                                    <span class="noimgarrowleft icon solid fa-chevron-left" ><span>See my Work</span></span>
+                                </a>
+                                
+                                <!-- <h1>Commissions</h1> -->
                                 <p>Traditional & Digital commission artwork</p>
                                 
+                                <a href="#contact" class="next-right">
+                                    <span class="noimgarrow icon solid fa-chevron-right" ><span>Contact me</span></span>
+                                </a>
                             </header>
-                            <a href="#contact" class="jumplink pic">
-                                <span class="arrow icon solid fa-chevron-right"><span>Contact Me</span></span>
-                                <img width='50px' src="images/white.png" alt="" />
-                            </a>
                         </article>
-                        <article id="art" class="panel">
-                            <!-- <header>
-                                <h2 align='center'>Commissions</h2>
-                            </header>
-                            <p align='center'>
-                                Traditional & Digital commission artwork
-                            </p> -->
-                            <section>
+                            <section id="art" class="panel work">
                                 <div class="art-images">
                                     <div id='top3'>
                                         <div id='logo-box'>
@@ -151,9 +140,6 @@
                                         <div id='portrait-box'>
                                             <a ><img id='portrait' class='box-shadow' src="images/mcgregor.png" alt="mcgregor"></a>
                                         </div>
-                                        <!-- <div id='portrait-box'>
-                                            <a ><img id='portrait' src="images/ryanross.png" alt="ryanross"></a>
-                                        </div> -->
                                         <div id='portrait-box'>
                                             <a ><img id='portrait' class='box-shadow' src="images/frankiero.png" alt="frankiero"></a>
                                         </div>
@@ -168,11 +154,6 @@
                                             <div id='last-box'>
                                                 <a ><img id='octo-img' class='box-shadow' src="images/octo.png" alt="octo"></a>
                                             </div>
-                                            
-                                            <!-- <div id='paint-box'>
-                                                <a ><img id='paint' src="images/frogs.png" alt="frogs"></a>
-                                            </div> -->
-                                        
                                         </div>
     
                                         <div id='soldier-dog'>
@@ -184,34 +165,34 @@
                                                 </div>
                                             </div>
                                     </div>
-                                    
-
-                                    <!-- <div id='fifth2'>
-                                        <div id='paint-box'>
-                                            <a ><img id='paint' src="images/octo.png" alt="octo"></a>
-                                        </div>
-                                        <div id='paint-box'>
-                                            <a ><img id='paint' src="images/frogs.png" alt="frogs"></a>
-                                        </div>
-                                        
-                                    </div> -->
-                                    
+                               
                                 </div >
                             </section>
                         </article>
 
 						<!-- Contact -->
-							<article id="contact" class="panel">
+                        <article id="contact" class="panel intro" style='height: 170px; '>
+                            <header >
+                                
+                                <a href="#art" class="next-right" >
+                                    <span class="noimgarrowleft icon solid fa-chevron-left"  style='margin-top: 150px; display: block; margin-left: 0em;'><span>See my Work</span></span>
+                                </a>
+
                                 <div id='nav' class='grif-icons'>
                                     <a href="https://github.com/h-griffin" class="icon brands fa-github fa-4x" style="color:#333333;"><span>Github</span></a>
                                     <a href="https://www.linkedin.com/in/hs-griffin/" class="icon brands fa-linkedin fa-4x" style="color:#333333; font-weight: 1000;"><span>Linked-In</span></a>
                                     <a href="#contact" class="icon brands fa-slack fa-4x" style="color:#333333; font-weight: 1000;"><span>UTPEGL1HN</span></a>
                                 </div>
+                            </header>
+                        </article>
+							<article id="contact" class="panel">
+                               
                                 <header>
                                     <h2 style='text-align: center;'>Contact Me</h2>
                                 </header>
                                 <form action="#" method="post">
 									<div>
+                                        
 										<div class="row">
 											<div class="col-6 col-12-medium">
 												<input type="text" name="name" placeholder="Name" />
